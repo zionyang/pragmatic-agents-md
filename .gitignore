@@ -8,3 +8,6 @@ Desktop.ini
 # Local Agent metadata; never publish machine-specific task state.
 .agents/
 .codex/
+
+# Local project-architecture records; retain locally but never publish them.
+.local/architecture/

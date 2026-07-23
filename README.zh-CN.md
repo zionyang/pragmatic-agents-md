@@ -53,8 +53,6 @@
 | [AGENTS.md](AGENTS.md) | 生效中的仓库 bootstrap 指令。 | 继续作为维护或使用本仓库时的 Agent 指令文件。 |
 | [templates/](templates/README.md) | 中英文全局、项目叠加与项目独立模板的现行索引。 | 承载后续规则映射与本地化更新。 |
 | [guides/](guides/README.md) | 安装、裁剪与项目级适配指南的生效索引。 | 继续将读者引导到适用的操作指南。 |
-| [PLAN.md](PLAN.md) | 权威实施计划。 | 继续定义阶段与确认门。 |
-| [SPEC.md](SPEC.md) | 权威产品与内容规格。 | 继续定义文件职责和验收标准。 |
 
 ## 安全与支持边界
 

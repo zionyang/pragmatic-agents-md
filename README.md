@@ -2,7 +2,7 @@
 
 Portable `AGENTS.md` templates and Markdown guidance for people and AI coding Agents.
 
-[Read this repository in Simplified Chinese](README.zh-CN.md).
+[阅读简体中文文档](README.zh-CN.md).
 
 ## What This Repository Provides
 
@@ -53,8 +53,6 @@ For an unknown Agent product, the Agent must discover its documented or existing
 | [AGENTS.md](AGENTS.md) | Active repository bootstrap instructions. | Remains the instruction file for Agents maintaining or using this repository. |
 | [templates/](templates/README.md) | Active index for global, project overlay, and project standalone templates in English and Simplified Chinese. | Receives future mapping and localization updates. |
 | [guides/](guides/README.md) | Active index for installation, customization, and project-adaptation guides. | Continues to route readers to the applicable operational guide. |
-| [PLAN.md](PLAN.md) | Authoritative implementation plan. | Continues to define phases and confirmation gates. |
-| [SPEC.md](SPEC.md) | Authoritative product and content specification. | Continues to define content responsibilities and acceptance criteria. |
 
 ## Safety and Support Boundaries
 

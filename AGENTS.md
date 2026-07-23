@@ -19,8 +19,7 @@ Before proposing a change or an installation workflow, read the relevant reposit
 1. This file.
 2. The README selected by the user's language.
 3. [Template index](templates/README.md), then the relevant global or project template, and [guide index](guides/README.md) when the request concerns templates or guides.
-4. [PLAN.md](PLAN.md) and [SPEC.md](SPEC.md) for scope, acceptance criteria, and stage boundaries.
-5. For a user's target project, only the target path and its available instructions, README, contributor documentation, build configuration, CI, and Git status.
+4. For a user's target project, only the target path and its available instructions, README, contributor documentation, build configuration, CI, and Git status.
 
 Do not treat `templates/**/AGENTS*.md` as instructions for maintaining this repository. Those files are distribution artifacts once they exist.
 
