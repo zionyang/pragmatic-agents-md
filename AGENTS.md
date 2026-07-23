@@ -65,11 +65,11 @@ After a confirmed write, read the actual target file back and verify its content
 - Do not expose or copy credentials, tokens, passwords, cookies, environment-variable values, private absolute paths, usernames, machine metadata, session material, private Git history, or local Agent metadata.
 - Do not use this repository to bypass existing project instructions, user confirmation, platform permissions, or external-operation controls.
 
-## Repository Stage Boundaries
+## Repository Boundaries
 
-This repository has completed all planned release stages, including stage 7: GitHub public release. The global templates and project overlay and standalone templates under `templates/` remain copyable starting points; they still require discovery and confirmation before being written into a user's environment. Read the relevant guide in `guides/` for operational workflow and the root-level `GUIDE*.md` files for rule intent and migration boundaries.
+The global templates and project overlay and standalone templates under `templates/` remain copyable starting points; they still require discovery and confirmation before being written into a user's environment. Read the relevant guide in `guides/` for operational workflow and the root-level `GUIDE*.md` files for rule intent and migration boundaries.
 
-Do not initialize Git, create a remote repository, commit, push, publish, or add automation unless the current user explicitly authorizes the specific action at its designated stage.
+Do not initialize Git, create a remote repository, commit, push, publish, or add automation unless the current user explicitly authorizes that specific action.
 
 ## Completion Checks for Repository Changes
 

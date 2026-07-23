@@ -1,8 +1,20 @@
 # pragmatic-agents-md
 
-Portable `AGENTS.md` templates and Markdown guidance for people and AI coding Agents.
+`AGENTS.md` templates and guides for people and AI coding Agents.
 
 [阅读简体中文文档](README.zh-CN.md).
+
+## How to Use It
+
+- Copy a template and adapt it to your environment.
+- Or let your Agent read this repository, check your existing rules and target project, and prepare a reviewable update for you.
+- The Agent does not change your configuration until you approve it.
+
+## Template Types
+
+- **Global templates**: For preferences that should apply across projects, such as the user's language, Wubi or Pinyin input, response style, and confirmation boundaries for file changes, network access, and Git operations.
+- **Project overlay templates**: For projects where compatible global rules already apply and you only need to add project-specific information, such as directory responsibilities, build and test commands, release restrictions, or areas that must not be changed.
+- **Project standalone templates**: For projects where no suitable global rules are available or where the project needs its own minimum safety boundaries.
 
 ## What This Repository Provides
 
@@ -13,9 +25,7 @@ Portable `AGENTS.md` templates and Markdown guidance for people and AI coding Ag
 
 It is not a one-click installer, a private configuration backup, or permission to change an existing project or Agent configuration without explicit confirmation.
 
-## Current Status
-
-The repository has completed all planned release stages, including stage 7: GitHub public release.
+## Available Materials
 
 - [AGENTS.md](AGENTS.md) is the bootstrap instruction file for an Agent working on this repository.
 - [Global templates](templates/global/README.md) are available in English and Simplified Chinese.
@@ -24,19 +34,6 @@ The repository has completed all planned release stages, including stage 7: GitH
 - [Rule guides](GUIDE.md) and [Simplified Chinese rule guides](GUIDE.zh-CN.md) explain the 23 global rules and their migration boundaries.
 
 The template files are copyable starting points. Do not copy a directory README as an `AGENTS.md` configuration. The guides describe a confirmation-gated workflow; they do not authorize any environment change by themselves.
-
-## Intended Use
-
-Choose one of these paths:
-
-1. Copy a completed template directly and adapt only the parts that apply to your environment.
-2. Ask an Agent to follow this repository's bootstrap workflow, inspect your existing rules and target project read-only, then prepare a reviewable candidate before changing anything.
-
-The available template families are:
-
-- Global: stable behavior shared across projects.
-- Project overlay: verified project facts and constraints for users who already have global rules.
-- Project standalone: project rules plus the required minimum safety boundaries for users without global rules.
 
 ## Agent Starter Prompt
 

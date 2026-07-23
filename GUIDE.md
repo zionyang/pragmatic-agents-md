@@ -8,6 +8,45 @@ For the corresponding Chinese explanations, see [GUIDE.zh-CN.md](GUIDE.zh-CN.md)
 
 Use a row below when reviewing a candidate or migrating an existing rule file. Preserve the source rule's trigger, required behavior, risk level, confirmation boundary, and verification requirement. If an explanation and a template appear to differ, report the discrepancy and use the template as the normative source until the documentation is corrected.
 
+## Design Principles and Use
+
+### Keep the Global Layer Lean
+
+Global instructions stay active across projects and conversations. Long instructions consume context and increase the chance of duplicated rules, conflicts, and diluted priorities. Keep the global layer to rules that are frequent across projects and non-negotiable.
+
+Group rules by topic so people and models can find the relevant boundary quickly. Group headings are for navigation only: they do not count as rules and do not establish priority. The actual constraint is the behavior boundary attached to each label.
+
+### Judge Rule Quality
+
+Do not optimize for the fewest words or attempt to enumerate every boundary. Aim for the smallest set that is still sufficient. Use this as a check when adding, merging, or removing a rule:
+
+```text
+Rule quality
+= clear necessary boundaries
++ non-overlapping responsibilities
++ no contradictions
++ changes actual behavior
+- repeated explanation
+- hypothetical boundaries
+- unnecessary process control
+```
+
+Rules create unnecessary load when several rules all require planning, clarification, and confirmation; low-risk tasks must follow the full process; proactive completion conflicts with confirmation for every action; sufficient evidence still triggers more checking; or simple tasks become formal design, documentation, and testing exercises. These problems usually come from duplication, conflict, and unnecessary process control rather than word count. Before adding a rule, check whether it fixes a recurring problem, can be merged into an existing rule, and would add process to simple tasks.
+
+### Place Rules at the Right Layer
+
+- **Global instructions**: language and expression preferences, deletion and high-risk-operation boundaries, Git defaults, diagnosis and verification requirements, and external-operation authorization.
+- **Project-level `AGENTS.md`**: project structure and key entry points, technology and dependency management, build/test/check commands, naming/style/delivery rules, and project-specific protected areas.
+- **Current conversation**: goals for this task, temporary output requirements, one-off limits such as analysis-only, and acceptance criteria for this task.
+
+### Maintain the Rule Set
+
+- Consider a new global rule only after the same class of problem recurs.
+- State concrete behavior instead of vague standards such as "work carefully" or "ensure high quality."
+- Check whether a new rule can be merged into an existing one before adding it.
+- Periodically remove rules that are obsolete, rarely used, or belong in a specific project.
+- Turn complex, fixed, repeated workflows into a Skill instead of putting every step into global instructions.
+
 ## Rule Mapping
 
 | # | Template rule | Intent and boundary | Migration concern |
