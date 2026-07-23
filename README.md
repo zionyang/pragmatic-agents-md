@@ -15,7 +15,7 @@ It is not a one-click installer, a private configuration backup, or permission t
 
 ## Current Status
 
-The repository has completed stage 5: local content validation. Stage 6, release-preparation Git review, has not started.
+The repository has completed stage 6: release-preparation Git review. Stage 7, GitHub public release, has not started.
 
 - [AGENTS.md](AGENTS.md) is the bootstrap instruction file for an Agent working on this repository.
 - [Global templates](templates/global/README.md) are available in English and Simplified Chinese.

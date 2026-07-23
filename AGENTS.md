@@ -68,7 +68,7 @@ After a confirmed write, read the actual target file back and verify its content
 
 ## Repository Stage Boundaries
 
-This repository has completed stage 5: local content validation. The global templates and project overlay and standalone templates under `templates/` remain copyable starting points; they still require discovery and confirmation before being written into a user's environment. Read the relevant guide in `guides/` for operational workflow and the root-level `GUIDE*.md` files for rule intent and migration boundaries. Stage 6, release-preparation Git review, has not started.
+This repository has completed stage 6: release-preparation Git review. The global templates and project overlay and standalone templates under `templates/` remain copyable starting points; they still require discovery and confirmation before being written into a user's environment. Read the relevant guide in `guides/` for operational workflow and the root-level `GUIDE*.md` files for rule intent and migration boundaries. Stage 7, GitHub public release, has not started.
 
 Do not initialize Git, create a remote repository, commit, push, publish, or add automation unless the current user explicitly authorizes the specific action at its designated stage.
 
