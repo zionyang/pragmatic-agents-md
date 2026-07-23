@@ -15,7 +15,7 @@ It is not a one-click installer, a private configuration backup, or permission t
 
 ## Current Status
 
-The repository has completed stage 4: installation, customization, project-adaptation, and rule-explanation guidance. Stage 5, local content validation, has not started.
+The repository has completed stage 5: local content validation. Stage 6, release-preparation Git review, has not started.
 
 - [AGENTS.md](AGENTS.md) is the bootstrap instruction file for an Agent working on this repository.
 - [Global templates](templates/global/README.md) are available in English and Simplified Chinese.
@@ -75,4 +75,4 @@ The workflow does not authorize writes, overwrites, installation, network access
 
 ## License
 
-The planned license for documentation and templates is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Redistribution or public adaptations must provide attribution, link the license, and indicate changes. The repository's `LICENSE` file will be added in a later stage before release.
+Documentation and templates in this repository are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Redistribution or public adaptations must provide attribution, link the license, and indicate changes. See [LICENSE](LICENSE) for the complete license text.

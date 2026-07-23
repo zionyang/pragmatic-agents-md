@@ -1,0 +1,10 @@
+# Operating-system and editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Local Agent metadata; never publish machine-specific task state.
+.agents/
+.codex/

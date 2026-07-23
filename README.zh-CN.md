@@ -15,7 +15,7 @@
 
 ## 当前状态
 
-本仓库已完成阶段 4：安装、裁剪、项目级适配与规则解释指南。阶段 5 的本地内容验收尚未开始。
+本仓库已完成阶段 5：本地内容验收。阶段 6 的发布前 Git 审阅尚未开始。
 
 - [AGENTS.md](AGENTS.md) 是供处理本仓库的 Agent 遵守的 bootstrap 指令文件。
 - [全局模板](templates/global/README.md) 已提供英文和简体中文版本。
@@ -75,4 +75,4 @@ Agent 应遵循以下流程：
 
 ## 许可证
 
-文档和模板计划采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。再分发或公开改编时，需要署名、链接许可证并标示改动。正式发布前会在后续阶段加入仓库的 `LICENSE` 文件。
+本仓库中的文档和模板采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。再分发或公开改编时，需要署名、链接许可证并标示改动。完整许可证文本见 [LICENSE](LICENSE)。
