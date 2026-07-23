@@ -4,6 +4,8 @@
 
 [阅读英文版本](README.md)。
 
+<a id="global-rule-mapping-and-localization-review"></a>
+
 ## 本仓库提供什么
 
 - 中英文全局 `AGENTS.md` 行为模板。
@@ -18,9 +20,9 @@
 本仓库的全部既定发布阶段均已完成，包括阶段 7：GitHub 公开发布。
 
 - [AGENTS.md](AGENTS.md) 是供处理本仓库的 Agent 遵守的 bootstrap 指令文件。
-- [全局模板](templates/global/README.md) 已提供英文和简体中文版本。
-- [项目模板](templates/project/README.md) 已提供中英文 overlay 与 standalone 版本。
-- [指南](guides/README.md) 已提供中英文安装、裁剪和项目级适配流程。
+- [全局模板](templates/global/README.zh-CN.md) 已提供英文和简体中文版本。
+- [项目模板](templates/project/README.zh-CN.md) 已提供中英文 overlay 与 standalone 版本。
+- [指南](guides/README.zh-CN.md) 已提供中英文安装、裁剪和项目级适配流程。
 - [规则说明](GUIDE.zh-CN.md)与[英文规则说明](GUIDE.md)解释 23 条全局规则及其迁移边界。
 
 模板文件可以作为可复制的起点。不得把目录 README 复制为 `AGENTS.md` 配置。指南描述的是带确认门的流程，本身不授权任何环境变更。
@@ -51,8 +53,8 @@
 | 位置 | 当前职责 | 计划职责 |
 | --- | --- | --- |
 | [AGENTS.md](AGENTS.md) | 生效中的仓库 bootstrap 指令。 | 继续作为维护或使用本仓库时的 Agent 指令文件。 |
-| [templates/](templates/README.md) | 中英文全局、项目叠加与项目独立模板的现行索引。 | 承载后续规则映射与本地化更新。 |
-| [guides/](guides/README.md) | 安装、裁剪与项目级适配指南的生效索引。 | 继续将读者引导到适用的操作指南。 |
+| [templates/](templates/README.zh-CN.md) | 中英文全局、项目叠加与项目独立模板的现行索引。 | 承载后续规则映射与本地化更新。 |
+| [guides/](guides/README.zh-CN.md) | 安装、裁剪与项目级适配指南的生效索引。 | 继续将读者引导到适用的操作指南。 |
 
 ## 安全与支持边界
 

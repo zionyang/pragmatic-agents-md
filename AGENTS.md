@@ -18,7 +18,7 @@ Before proposing a change or an installation workflow, read the relevant reposit
 
 1. This file.
 2. The README selected by the user's language.
-3. [Template index](templates/README.md), then the relevant global or project template, and [guide index](guides/README.md) when the request concerns templates or guides.
+3. Use the index matching the user's language: [English template index](templates/README.md) or [Simplified Chinese template index](templates/README.zh-CN.md); then read the relevant global or project template and, when the request concerns templates or guides, the matching [English guide index](guides/README.md) or [Simplified Chinese guide index](guides/README.zh-CN.md).
 4. For a user's target project, only the target path and its available instructions, README, contributor documentation, build configuration, CI, and Git status.
 
 Do not treat `templates/**/AGENTS*.md` as instructions for maintaining this repository. Those files are distribution artifacts once they exist.

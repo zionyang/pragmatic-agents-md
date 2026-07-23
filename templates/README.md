@@ -5,8 +5,8 @@ This directory contains copyable template starting points. A template is not an 
 | Template family | Files | Use when |
 | --- | --- | --- |
 | [Global](global/README.md) | [English](global/AGENTS.md), [Simplified Chinese](global/AGENTS.zh-CN.md) | The user needs stable cross-project collaboration preferences and safety boundaries. |
-| [Project overlay](project/AGENTS.overlay.md) / [中文](project/AGENTS.overlay.zh-CN.md) | The user already has compatible global rules and needs only verified project-specific additions. |
-| [Project standalone](project/AGENTS.standalone.md) / [中文](project/AGENTS.standalone.zh-CN.md) | No compatible global rules apply, or the project needs its own minimum safety boundaries. |
+| Project overlay | [English](project/AGENTS.overlay.md), [Simplified Chinese](project/AGENTS.overlay.zh-CN.md) | The user already has compatible global rules and needs only verified project-specific additions. |
+| Project standalone | [English](project/AGENTS.standalone.md), [Simplified Chinese](project/AGENTS.standalone.zh-CN.md) | No compatible global rules apply, or the project needs its own minimum safety boundaries. |
 
 Do not copy this index or either directory README as an `AGENTS.md` configuration. For the confirmation-gated workflow, see the [guide index](../guides/README.md), [installation guide](../guides/INSTALL.md), [customization guide](../guides/CUSTOMIZE.md), [project adaptation guide](../guides/PROJECT.md), and [rule guide](../GUIDE.md). These guides do not establish a configuration path or promise automatic loading for an unknown Agent.
 

@@ -2,7 +2,7 @@
 
 本指南说明中文全局模板中每条规则的意图、边界和迁移关注点。规范性正文仍是[templates/global/AGENTS.zh-CN.md](templates/global/AGENTS.zh-CN.md)。本指南不创建另一份模板、不赋予新权限，也不削弱模板规则。
 
-英文对应说明见 [GUIDE.md](GUIDE.md)。已发布的[模板索引](templates/README.md#global-rule-mapping-and-localization-review)记录了中英文必须保持的一对一映射。
+英文对应说明见 [GUIDE.md](GUIDE.md)。已发布的[模板索引](templates/README.zh-CN.md#global-rule-mapping-and-localization-review)记录了中英文必须保持的一对一映射。
 
 ## 使用方法
 

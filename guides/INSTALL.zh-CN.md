@@ -2,7 +2,7 @@
 
 本指南说明如何准备可复制模板，并且只在获得明确确认后，将其写入 Agent 或项目环境。它不是一键安装器，也不为任何 Agent 产品预设配置路径、文件名、加载行为或命令。
 
-请先通过[仓库 README](../README.zh-CN.md)选择语言，通过[模板索引](../templates/README.md)选择起点；裁剪和项目事实分别见下方链接的其他指南。模板正文仍是规则本身的权威来源。
+请先通过[仓库 README](../README.zh-CN.md)选择语言，通过[模板索引](../templates/README.zh-CN.md)选择起点；裁剪和项目事实分别见下方链接的其他指南。模板正文仍是规则本身的权威来源。
 
 ## 支持证据
 
@@ -41,7 +41,7 @@
 
 | 模式 | 适用条件 | 候选来源 | 边界 |
 | --- | --- | --- | --- |
-| 全局 | 用户需要跨项目稳定行为，且实际全局入口能够验证。 | 用户语言对应的[全局模板](../templates/global/README.md)。 | 与现有全局规则比较，优先生成可审阅的合并候选。 |
+| 全局 | 用户需要跨项目稳定行为，且实际全局入口能够验证。 | 用户语言对应的[全局模板](../templates/global/README.zh-CN.md)。 | 与现有全局规则比较，优先生成可审阅的合并候选。 |
 | 项目 overlay | 兼容的全局规则已经适用于该项目。 | [英文 overlay](../templates/project/AGENTS.overlay.md) 或[中文 overlay](../templates/project/AGENTS.overlay.zh-CN.md)。 | 只新增已验证项目事实；不得重复或削弱全局安全边界。 |
 | 项目 standalone | 没有兼容全局规则，或项目需要自包含的最低安全边界。 | [英文 standalone](../templates/project/AGENTS.standalone.md) 或[中文 standalone](../templates/project/AGENTS.standalone.zh-CN.md)。 | 保留独立模板中的最低安全边界。 |
 | 仅生成候选 | 用户只要草案、审阅或比较，或尚未授权写入。 | 适用模板和已验证证据。 | 展示候选和 diff 后停止。 |
