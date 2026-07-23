@@ -15,7 +15,7 @@
 
 ## 当前状态
 
-本仓库已完成阶段 6：发布前 Git 审阅。阶段 7 的 GitHub 公开发布尚未开始。
+本仓库的全部既定发布阶段均已完成，包括阶段 7：GitHub 公开发布。
 
 - [AGENTS.md](AGENTS.md) 是供处理本仓库的 Agent 遵守的 bootstrap 指令文件。
 - [全局模板](templates/global/README.md) 已提供英文和简体中文版本。
