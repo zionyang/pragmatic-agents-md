@@ -12,7 +12,7 @@
 
 ## Template Types
 
-- **Global templates**: For preferences that should apply across projects, such as the user's language, Wubi or Pinyin input, response style, and confirmation boundaries for file changes, network access, and Git operations.
+- **Global templates**: For preferences that should apply across projects, such as the user's language, input habits, response style, and confirmation boundaries for file changes, network access, and Git operations.
 - **Project overlay templates**: For projects where compatible global rules already apply and you only need to add project-specific information, such as directory responsibilities, build and test commands, release restrictions, or areas that must not be changed.
 - **Project standalone templates**: For projects where no suitable global rules are available or where the project needs its own minimum safety boundaries.
 

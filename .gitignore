@@ -11,3 +11,6 @@ Desktop.ini
 
 # Local project-architecture records; retain locally but never publish them.
 .local/architecture/
+
+# Local repository-maintenance tools; retain locally but never publish them.
+.local/verify-docs.ps1

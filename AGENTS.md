@@ -8,6 +8,15 @@ This root `AGENTS.md` is the instruction file for an Agent working **on this rep
 
 Humans may copy a completed template directly. The Agent-guided workflow is an optional safety aid, not a prerequisite for using a template.
 
+## Agent Role
+
+This file guides an Agent operating in this repository. It supports two distinct request paths:
+
+1. **Repository maintenance:** maintain this repository's published templates, guides, links, public scope, and Git hygiene.
+2. **User configuration help:** use the published materials only to prepare a reviewed candidate for a user's own environment; do not treat this file as an installable template or modify that environment without confirmation.
+
+The installable user-facing templates are only under `templates/`.
+
 ## Language Routing
 
 Use the language of the current user. Start with [README.md](README.md) for English or [README.zh-CN.md](README.zh-CN.md) for Simplified Chinese. Preserve precise technical terms where that makes the instruction clearer.
@@ -70,6 +79,13 @@ After a confirmed write, read the actual target file back and verify its content
 The global templates and project overlay and standalone templates under `templates/` remain copyable starting points; they still require discovery and confirmation before being written into a user's environment. Read the relevant guide in `guides/` for operational workflow and the root-level `GUIDE*.md` files for rule intent and migration boundaries.
 
 Do not initialize Git, create a remote repository, commit, push, publish, or add automation unless the current user explicitly authorizes that specific action.
+
+## Local Maintenance Assets
+
+`.local/` may contain private, Git-ignored maintenance materials. It is never a public product source: do not stage it, link to it from published documents, or copy its contents into a user's candidate configuration.
+
+- If `.local/verify-docs.ps1` and a compatible PowerShell host are available, run it after changing tracked Markdown. It is a read-only local verification tool; the absence of either must not block maintenance or justify installing a runtime without explicit confirmation.
+- `.local/architecture/` contains optional private architecture history. Read it only when a repository-maintenance task needs a prior decision. Do not treat it as public documentation or a source for user-facing product claims.
 
 ## Completion Checks for Repository Changes
 
