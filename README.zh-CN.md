@@ -15,14 +15,15 @@
 
 ## 当前状态
 
-本仓库已完成阶段 3：模板设计与本地化。阶段 4 的安装、裁剪、项目级适配与规则解释操作指南尚未开始。
+本仓库已完成阶段 4：安装、裁剪、项目级适配与规则解释指南。阶段 5 的本地内容验收尚未开始。
 
 - [AGENTS.md](AGENTS.md) 是供处理本仓库的 Agent 遵守的 bootstrap 指令文件。
 - [全局模板](templates/global/README.md) 已提供英文和简体中文版本。
 - [项目模板](templates/project/README.md) 已提供中英文 overlay 与 standalone 版本。
-- [guides/](guides/README.md) 仍只是阶段 4 操作指南的目录级占位入口。
+- [指南](guides/README.md) 已提供中英文安装、裁剪和项目级适配流程。
+- [规则说明](GUIDE.zh-CN.md)与[英文规则说明](GUIDE.md)解释 23 条全局规则及其迁移边界。
 
-模板文件可以作为可复制的起点。不得把目录 README 复制为 `AGENTS.md` 配置，也不得把尚未提供的阶段 4 指南当作安装流程。
+模板文件可以作为可复制的起点。不得把目录 README 复制为 `AGENTS.md` 配置。指南描述的是带确认门的流程，本身不授权任何环境变更。
 
 ## 预期使用方式
 
@@ -51,7 +52,7 @@
 | --- | --- | --- |
 | [AGENTS.md](AGENTS.md) | 生效中的仓库 bootstrap 指令。 | 继续作为维护或使用本仓库时的 Agent 指令文件。 |
 | [templates/](templates/README.md) | 中英文全局、项目叠加与项目独立模板的现行索引。 | 承载后续规则映射与本地化更新。 |
-| [guides/](guides/README.md) | 占位索引。 | 在阶段 4 提供安装、裁剪与项目级适配指南。 |
+| [guides/](guides/README.md) | 安装、裁剪与项目级适配指南的生效索引。 | 继续将读者引导到适用的操作指南。 |
 | [PLAN.md](PLAN.md) | 权威实施计划。 | 继续定义阶段与确认门。 |
 | [SPEC.md](SPEC.md) | 权威产品与内容规格。 | 继续定义文件职责和验收标准。 |
 

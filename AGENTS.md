@@ -68,9 +68,9 @@ After a confirmed write, read the actual target file back and verify its content
 
 ## Repository Stage Boundaries
 
-This repository is currently implementing stage 3: template design and localization. The global templates and project overlay and standalone templates under `templates/` are available as copyable starting points. They still require discovery and confirmation before being written into a user's environment. The files in `guides/` remain directory-level placeholders; operational installation, customization, project-adaptation, and rule-explanation guides are not available until stage 4.
+This repository has completed stage 4: installation, customization, project-adaptation, and rule-explanation guidance. The global templates and project overlay and standalone templates under `templates/` remain copyable starting points; they still require discovery and confirmation before being written into a user's environment. Read the relevant guide in `guides/` for operational workflow and the root-level `GUIDE*.md` files for rule intent and migration boundaries. Stage 5 local content validation has not started.
 
-Do not create complete installation, customization, project-adaptation, or rule-explanation guides until stage 4. Do not initialize Git, create a remote repository, commit, push, publish, or add automation unless the current user explicitly authorizes the specific action at its designated stage.
+Do not initialize Git, create a remote repository, commit, push, publish, or add automation unless the current user explicitly authorizes the specific action at its designated stage.
 
 ## Completion Checks for Repository Changes
 

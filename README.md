@@ -15,14 +15,15 @@ It is not a one-click installer, a private configuration backup, or permission t
 
 ## Current Status
 
-The repository has completed stage 3: template design and localization. Stage 4, the operational guides for installation, customization, project adaptation, and rule explanation, has not started.
+The repository has completed stage 4: installation, customization, project-adaptation, and rule-explanation guidance. Stage 5, local content validation, has not started.
 
 - [AGENTS.md](AGENTS.md) is the bootstrap instruction file for an Agent working on this repository.
 - [Global templates](templates/global/README.md) are available in English and Simplified Chinese.
 - [Project templates](templates/project/README.md) are available as English and Simplified Chinese overlay and standalone variants.
-- [guides/](guides/README.md) remains a directory-level placeholder for the stage 4 operational guides.
+- [Guides](guides/README.md) are available in English and Simplified Chinese for installation, customization, and project adaptation.
+- [Rule guides](GUIDE.md) and [Simplified Chinese rule guides](GUIDE.zh-CN.md) explain the 23 global rules and their migration boundaries.
 
-The template files are copyable starting points. Do not copy a directory README as an `AGENTS.md` configuration, and do not treat the unavailable stage 4 guides as an installation procedure.
+The template files are copyable starting points. Do not copy a directory README as an `AGENTS.md` configuration. The guides describe a confirmation-gated workflow; they do not authorize any environment change by themselves.
 
 ## Intended Use
 
@@ -51,7 +52,7 @@ For an unknown Agent product, the Agent must discover its documented or existing
 | --- | --- | --- |
 | [AGENTS.md](AGENTS.md) | Active repository bootstrap instructions. | Remains the instruction file for Agents maintaining or using this repository. |
 | [templates/](templates/README.md) | Active index for global, project overlay, and project standalone templates in English and Simplified Chinese. | Receives future mapping and localization updates. |
-| [guides/](guides/README.md) | Placeholder index. | Installation, customization, and project-adaptation guides in stage 4. |
+| [guides/](guides/README.md) | Active index for installation, customization, and project-adaptation guides. | Continues to route readers to the applicable operational guide. |
 | [PLAN.md](PLAN.md) | Authoritative implementation plan. | Continues to define phases and confirmation gates. |
 | [SPEC.md](SPEC.md) | Authoritative product and content specification. | Continues to define content responsibilities and acceptance criteria. |
 
